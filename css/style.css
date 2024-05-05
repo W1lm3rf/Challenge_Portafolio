@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    
+    background-color: #F5F5F5;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: #263238;
+    box-sizing: border-box;
+    text-align: center;
+
+    
+}
+
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#CabeceraContainer{
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    width: 1136px;
+    padding: 0 25px;
+    
+}
+
+
+#logo{
+    display: flex;
+    gap: 10px;
+    align-items: center
+    
+}
+
+#logo img{
+    height: 24PX;
+    width: auto;    
+}
+
+#logo h1{
+    font-weight: bold;
+}
+
+#Cabecera{
+    display: flex;
+    gap: 20px;
+}
+
+#Cabecera a:last-child{
+    font-weight: bold;
+}
+
+
+
+/* Section universal */
+
+section{
+    
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+
+/* seccion 1 */
+#contenedorUno{
+    justify-content: space-between;
+    align-items: center;
+    height: 368px;
+    width: 1136px;
+    display: flex;
+    
+}
+
+#quiensoy{
+    order: 0;
+    width: 768px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#quiensoy h2{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+#quiensoy p{
+    font-size: 22px;
+    font-weight:300;
+}
+
+#redes{
+    font-size: 16px;
+    font-weight:500;
+    display: flex;
+    gap: 30px;
+}
+
+#foto{
+    order: 1;
+    width: 368px;
+    height: 368px;
+    border-radius: 500px;
+    overflow: hidden;
+}
+
+#foto img{
+ width: 100%;   
+}
+
+
+/* seccion 2 */
+#sobreMi{
+    background-color: #D4E4FA;
+    height: 383px;
+    
+}
+
+#contenedorDos{
+    height: 255px;
+    width: 1136px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#contenedorDos h3{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#contenedorDos p{
+    width: 751px;
+    font-size: 16px;
+}
+
+#firma{
+    width: 140px;
+    height: 52px;
+    overflow: hidden;
+}
+
+
+/* seccion 3 */
+#skillHobbiesFormacion{
+    height: 1245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Skills{
+    order: 0;
+    width: 1136px;
+    height: 244px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+   
+    
+}
+
+#Skills h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+
+.contenedorSkillsHobbies{
+    width: 1136px;
+    height: 174px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listaSkillsHobbies{
+    height: 174px;
+    width: 176px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    padding: 16px;
+    gap: 10px;
+}
+
+.listaSkillsHobbies img{
+    height: 37px;
+    width: auto;
+}
+
+.listaSkillsHobbies p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#Hobbies{
+    order: 1;
+    width: 1136px;
+    height: 244px;
+
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+#Hobbies h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+#Formacion{
+    order: 2;
+    height: 581px;
+    width: 100%;
+    background-color: #D4E4FA;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#Formacion h3{
+    font-size: 32px;
+    font-weight: bold;
+    gap: 25px;
+}
+
+#contenedorFormacion{
+    width: 1136px;
+    height: 347PX;
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.subContenedorFormacion{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.subContenedorFormacion h4{
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.subContenedorFormacion p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contenedorIgm{
+    width: 368px;
+    height: 286px;
+    overflow: hidden;
+    background-color: white;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorIgm img{
+    width: 50%;
+}
