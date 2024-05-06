@@ -308,3 +308,157 @@ section{
 .contenedorIgm img{
     width: 50%;
 }
+
+
+
+/* Experiencia */
+
+#Experiencia{
+    height: 943px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: flex-start
+}
+
+#Experiencia h3{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+
+
+/* Contacto */
+
+#Contacto{
+    height: 788px;
+    background-color: #D4E4FA;
+}
+
+#contenedorContacto{
+    width: 1136px;
+    height: 660px;
+    padding-top: 64px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between
+}
+
+#imgContacto{
+    width: 464px;
+    height: 593px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6a5a5;
+}
+
+#imgContacto img{
+    width: 70%;
+}
+
+#contenedorContacto form{
+    height: 596px;
+    width: 656px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    left: 0;
+    top: 0;
+    gap: 32px;
+    
+}
+
+#textoContato{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+#contenedorContacto form h3{
+    
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#contenedorContacto form p{
+    height: 38px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+
+.contenedorInput{
+    width: 656px;
+    height: 56px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    padding: 8px 12px 8px 12px;
+    gap: 7px;
+    border-bottom: 2px solid #C8C8C8;
+    
+}
+
+
+.contenedorInput label{
+    width: 632px;
+    height: 16px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #A2A2A2;
+}
+
+.contenedorInput input{
+    width: 632px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #464646;
+    line-height: 20px;
+    outline: none;
+}
+
+
+
+
+/* #contenedorContacto form label{
+    text-align: left;
+    background-color: white;
+    border: 1px solid;
+}
+
+#contenedorContacto form input{
+    display: block;
+    width: 656px;
+    height: 56px;
+    border-radius: 4px;
+} */
+
+
+
+
+#contenedorContacto form button{
+    height: 51px;
+    width: 144px;
+    padding: 16px;
+    
+    background-color: #2A7AE4;
+
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+}
+
+

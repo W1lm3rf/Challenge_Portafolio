@@ -165,43 +165,57 @@
             </section>
         </section>
         
-<!--
-        <section id="Experiencia">
 
+        <section id="Experiencia">
+            <h3>Experiencia profesional</h3>
         </section>
 
         <section id="Contacto">
-            <div><img src="" alt=""></div>
+            <div id="contenedorContacto">
+                <div id="imgContacto">
+                    <img src="img/contacto.png" alt="">
+                </div>
 
-            <form action="">
-                <h3>Contacto</h3>
-                <p>¿Quieres contactarme?</p>
-                <p>Complete el siguiente formulario y me pondre en contacto con usted lo antes posible.</p>
+                <form action="">
+                   
+                        <div id="textoContato">
+                            <h3>Contacto</h3>
+                            <p>¿Quieres contactarme?
+                            <br>Complete el siguiente formulario y me pondre en contacto con usted lo antes posible.</p>
+                         
+                        </div>
+                                      
+                        <div class="contenedorInput" id="contenedorNombre">
+                            <label for="">Nombre</label>
+                            <input type="text" placeholder="Fulano de Tal">
+                        </div>               
+                                     
+                        <div class="contenedorInput" id="contenedorEmail">
+                            <label for="">E-mail</label>
+                            <input type="email" name="" id="" placeholder="fulano.tal@dominio.com">
+                        </div>             
+                          
+                    
 
-                <label for="">Nombre</label>
-                <input type="text">
+                    <input type="text" placeholder="Asunto">
 
-                <label for="">E-mail</label>
-                <input type="email" name="" id="">
+                    <textarea name="" id="" cols="30" rows="10"
+                    placeholder="Mensaje"></textarea>
 
-                <label for="">Asunto</label>
-                <input type="text">
-
-                <label for="">Mensaje</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-
-                <button type="button">Enviar mensaje</button>
-            </form>
+                    <button type="button">Enviar mensaje</button>
+                </form>
+            </div>
+            
 
         </section>
     </main>
 
-    
+ <!--   
     <footer>
         <p>Desarrollado por Wilmer Florez</p>
         <p>2024</p>
     </footer>
     -->
-
+<script src="js/script.js"></script>
 </body>
 </html>
