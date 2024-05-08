@@ -459,7 +459,7 @@ section{
 }
 
 
-#contenedorContacto form button{
+#contenedorContacto button{
     height: 51px;
     width: 144px;
     padding: 16px;
@@ -481,4 +481,262 @@ footer{
     align-content: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+
+
+/* Mobile */
+@media (min-width:428px) {
+
+    #CabeceraContainer{
+        height: 56px;
+        gap: auto;
+    }
+
+    #Cabecera a:last-child{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+   body{
+    height: auto;
+    border: 2px solid red;
+   }
+
+   #foto{
+    order: 1;
+    width: 98px;
+    height: 98px;
+}
+    
+
+    #Cabecera a:not(:last-child) {
+        display: none;
+    }
+
+    #contenedorUno{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        
+        gap: 16px;
+        height: 294px;
+    }
+
+    #foto{
+        order: 0;
+    }
+
+    #quiensoy{
+        order: 1;
+        width: auto;
+        height: 148PX;
+        row-gap: 16px;
+        
+    }
+
+    #quiensoy h2{
+        font-size: 22px;
+    }
+
+    #quiensoy p{
+        font-size: 14px;
+    }
+
+    #redes{
+        font-size: 14px;
+        
+        gap: 8px;
+    }
+
+
+
+    #sobreMi{
+        height: 350px;
+        width: auto;
+    }
+
+    #contenedorDos{
+        height: 318px;
+        width: 328px;
+        justify-content: space-between;
+    }
+
+    #contenedorDos h3{
+        font-size: 22px;
+    }
+    
+    #contenedorDos p{
+        font-size: 14px;
+        width: auto;
+    }
+    
+    #firma{
+        width: 140px;
+        height: 52px;
+        overflow: hidden;
+    }
+
+
+
+    #Skills{
+        order: 0;
+        width: 360px;
+        height: 508px;
+    }
+    
+    #Skills h3{
+        font-size: 22px;
+    }
+
+    .contenedorSkillsHobbies{
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+   
+
+    .listaSkillsHobbies{
+        height: 118px;
+        width: 156px;
+    }
+
+    #Hobbies{
+        order: 1;
+        width: 360px;
+        height: 508px;
+    }
+
+    #Hobbies h3{
+        font-size: 22px;
+    }
+
+    
+
+    #Formacion{
+        height: 661px;
+        width: 100%;
+    }
+    
+    #Formacion h3{
+        font-size: 22px;
+    }
+
+
+
+    #contenedorFormacion{
+        width: auto;
+        height: auto;
+        
+        flex-direction: column;
+        justify-content: space-between;
+        
+    
+    }
+    
+    .subContenedorFormacion{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+    
+    .subContenedorFormacion h4{
+        font-size: 16px;
+    }
+    
+    .subContenedorFormacion p{
+        font-size: 14px;
+    }
+    
+    .contenedorIgm{
+        width: 296px;
+        height: 118px;
+    }
+    
+    .contenedorIgm img{
+        width: 35%;
+    }
+
+
+    #Experiencia h3{
+        font-size: 22px;
+    }
+
+
+
+    
+    #imgContacto{
+        display: none;
+    }
+
+
+
+    #Contacto{
+        height: 777px;
+        width: auto;
+    }
+    
+    #contenedorContacto{
+        width: 296px;
+        height: auto;
+        padding: 0;
+        gap: 32px;
+        border: 2px solid; 
+    }
+    
+    
+    
+       
+    #textoContato{
+        width: 296px;
+        height: auto;
+    }
+
+    #textoContato p{
+        width: 296px;
+       
+        height: auto;
+    }
+    
+    #contenedorContacto form h3{
+        font-size: 22px;
+    }
+      
+    
+    .contenedorInput{
+        width: 296px;
+        height: 56px;        
+    }
+    
+    
+    .contenedorInput label{
+        width: auto;
+    }
+    
+    .contenedorInput input{
+        width: auto;   
+    }
+    
+    
+    #inputAsunto{
+        width: 296px;
+        height: 56px;
+    }
+    
+    
+    #textareaMensaje{
+        width: 296px;
+        height: 133px;        
+    }
+    
+    
+    #contenedorContacto button{
+        height: 40px;
+        width: 133px;    
+        font-size: 14px;
+    }
 }
