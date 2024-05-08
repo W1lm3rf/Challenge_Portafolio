@@ -315,7 +315,7 @@ section{
 
 #Experiencia{
     height: 943px;
-    border: 2px solid;
+    
     justify-content: center;
     align-items: flex-start
 }
@@ -499,6 +499,8 @@ footer{
     }
 
    body{
+    
+    width: 100%;
     height: auto;
     border: 2px solid red;
    }
@@ -676,16 +678,16 @@ footer{
 
 
     #Contacto{
-        height: 777px;
+        height: 675px;
         width: auto;
     }
     
     #contenedorContacto{
         width: 296px;
-        height: auto;
+        height: 611px;
         padding: 0;
         gap: 32px;
-        border: 2px solid; 
+        
     }
     
     
@@ -693,22 +695,20 @@ footer{
        
     #textoContato{
         width: 296px;
-        height: auto;
+        height: 110px;
+    }
+
+    #textoContato h3{
+        font-size: 22px;
     }
 
     #textoContato p{
         width: 296px;
-       
-        height: auto;
-    }
-    
-    #contenedorContacto form h3{
-        font-size: 22px;
-    }
-      
+        font-size: 16px;
+    }    
     
     .contenedorInput{
-        width: 296px;
+        width: auto;
         height: 56px;        
     }
     
@@ -723,13 +723,13 @@ footer{
     
     
     #inputAsunto{
-        width: 296px;
+        width: auto;
         height: 56px;
     }
     
     
     #textareaMensaje{
-        width: 296px;
+        width: auto;
         height: 133px;        
     }
     
@@ -739,4 +739,7 @@ footer{
         width: 133px;    
         font-size: 14px;
     }
+
+    
+    
 }
