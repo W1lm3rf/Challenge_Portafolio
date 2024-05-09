@@ -486,7 +486,7 @@ footer{
 
 
 /* Mobile */
-@media (min-width:428px) {
+@media (min-width:320px) {
 
     #CabeceraContainer{
         height: 56px;
@@ -597,14 +597,15 @@ footer{
 
         display: flex;
         flex-wrap: wrap;
-        row-gap: 30px;
+        justify-content: center;
+        gap: 5px;
     }
 
    
 
     .listaSkillsHobbies{
         height: 118px;
-        width: 156px;
+        width: 150px;
     }
 
     #Hobbies{
@@ -622,6 +623,7 @@ footer{
     #Formacion{
         height: 661px;
         width: 100%;
+        padding: 10px 1px 10px 1px;
     }
     
     #Formacion h3{
@@ -641,6 +643,7 @@ footer{
     }
     
     .subContenedorFormacion{
+        width: auto;
         display: flex;
         flex-direction: column;
         gap: 7px;
@@ -655,7 +658,7 @@ footer{
     }
     
     .contenedorIgm{
-        width: 296px;
+        width: 285px;
         height: 118px;
     }
     
