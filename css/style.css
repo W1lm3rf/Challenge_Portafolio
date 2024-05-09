@@ -490,7 +490,6 @@ footer{
 
     #CabeceraContainer{
         height: 56px;
-        gap: auto;
     }
 
     #Cabecera a:last-child{
@@ -502,7 +501,7 @@ footer{
     
     width: 100%;
     height: auto;
-    border: 2px solid red;
+    
    }
 
    #foto{
@@ -523,6 +522,7 @@ footer{
         
         gap: 16px;
         height: 294px;
+        padding-left: 10px;
     }
 
     #foto{
@@ -556,12 +556,14 @@ footer{
     #sobreMi{
         height: 350px;
         width: auto;
+        
     }
 
     #contenedorDos{
         height: 318px;
         width: 328px;
         justify-content: space-between;
+        padding: 10px;
     }
 
     #contenedorDos h3{
