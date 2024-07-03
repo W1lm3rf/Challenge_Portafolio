@@ -1,21 +1,15 @@
 *{
-    box-sizing: border-box;
+    
+    box-sizing: border-box;   
 }
 
 body {
     font-family: "Raleway", sans-serif;
+    background-color: #ffffff;   
+    color: #263238;    
+    background-image: url("../img/bg.png");
     
-    background-color: #F5F5F5;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    font-size: 14px;
-    color: #263238;
-    box-sizing: border-box;
-    text-align: center;
-
-    
+ 
 }
 
 
@@ -23,6 +17,7 @@ body {
 header{
     display: flex;
     justify-content: center;
+   background-color: white;
     
 }
 
@@ -35,14 +30,13 @@ header{
     height: 88px;
     width: 1136px;
     padding: 0 25px;
-    
 }
 
 
 #logo{
     display: flex;
     gap: 10px;
-    align-items: center
+    align-items: center;
     
 }
 
@@ -59,6 +53,13 @@ header{
     display: flex;
     gap: 20px;
 }
+#Cabecera a:hover{
+    
+    color: red;
+    font-weight: bold;
+    
+    
+}
 
 #Cabecera a:last-child{
     font-weight: bold;
@@ -66,14 +67,14 @@ header{
 
 
 
+
+
 /* Section universal */
 
 section{
-    
-    margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 
@@ -105,6 +106,7 @@ section{
 #quiensoy p{
     font-size: 22px;
     font-weight:300;
+    line-height: 2rem;
 }
 
 #redes{
@@ -114,28 +116,97 @@ section{
     gap: 30px;
 }
 
-#foto{
-    order: 1;
-    width: 368px;
-    height: 368px;
-    border-radius: 500px;
-    overflow: hidden;
+#redes a{
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    /* box-shadow: 0px 3px 6px 0px #464646; */
+    
+    text-align: center;
+    width: 80px;
 }
 
-#foto img{
- width: 100%;   
+
+
+#redes a:hover{
+    filter: drop-shadow(1px 2px 3px rgb(83, 82, 82));
+    transform: scale(1.20);
 }
+
+#foto{
+    order: 1;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+    
+} 
+
+
+
+#foto img {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
+    border-radius: 50%; /* Hace que la imagen también sea redonda */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* seccion 2 */
 #sobreMi{
-    background-color: #D4E4FA;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(212, 228, 250, 0.70);
     height: 383px;
+}
+
+#logoColombia{
+    bottom: 0;
+    right: 200px;
+    position: absolute;
+    max-height: 360px;
+    max-width: 450px;
+    align-content: flex-end;
+    
+    overflow: hidden;
+}
+
+#logoColombia img{
+    width: 100%;
+}
+
+#sobreMi h3{
+   
+    padding-right: 25rem;
+
+    text-align: start;
+    font-size: 38px;
+    font-weight: bold;
     
 }
 
 #contenedorDos{
-    height: 255px;
+    
     width: 1136px;
     text-align: left;
 
@@ -144,19 +215,18 @@ section{
     gap: 25px;
 }
 
-#contenedorDos h3{
-    font-size: 38px;
-    font-weight: bold;
-}
 
 #contenedorDos p{
+    padding: 15px 0px;
     width: 751px;
     font-size: 16px;
+    line-height: 1.4rem;
+    font-style: italic;
 }
 
 #firma{
-    width: 140px;
-    height: 52px;
+    width: 160px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -166,21 +236,16 @@ section{
     height: 1245px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #Skills{
     order: 0;
     width: 1136px;
     height: 244px;
-
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    
-   
-    
 }
 
 #Skills h3{
@@ -208,9 +273,10 @@ section{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-
     padding: 16px;
     gap: 10px;
+
+    box-shadow: 0px 0px 5px 0px rgb(223, 119, 15);
 }
 
 .listaSkillsHobbies img{
@@ -228,14 +294,9 @@ section{
     order: 1;
     width: 1136px;
     height: 244px;
-
-    margin-top: 88px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 
 #Hobbies h3{
     font-size: 32px;
@@ -247,15 +308,11 @@ section{
 
 
 
-
-
 #Formacion{
     order: 2;
-    height: 581px;
+    height: 580px;
     width: 100%;
-    background-color: #D4E4FA;
-
-    display: flex;
+    background-color: rgba(212, 228, 250, 0.70);
     flex-direction: column;
     gap: 25px;
 }
@@ -481,12 +538,16 @@ footer{
     align-content: center;
     font-size: 16px;
     font-weight: 500;
+    text-align: center;
+    background-color: white;
 }
 
 
 
 /* Mobile */
+/* 
 @media (min-width:320px) {
+   
 
     #CabeceraContainer{
         height: 56px;
@@ -497,18 +558,13 @@ footer{
         font-weight: 400;
     }
 
-   body{
-    
-    width: 100%;
-    height: auto;
-    
-   }
+   
 
    #foto{
-    order: 1;
+    order: 0;
     width: 98px;
     height: 98px;
-}
+    }
     
 
     #Cabecera a:not(:last-child) {
@@ -523,10 +579,6 @@ footer{
         gap: 16px;
         height: 294px;
         padding-left: 10px;
-    }
-
-    #foto{
-        order: 0;
     }
 
     #quiensoy{
@@ -600,7 +652,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 5px;
+        gap: 10px;
     }
 
    
@@ -744,7 +796,106 @@ footer{
         width: 133px;    
         font-size: 14px;
     }
+} */
+
+
+
+
+
+/* Tablet */
+/* 
+@media (min-width:768px){
+
+    #Cabecera a:last-child{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #contenedorUno{
+        flex-direction: row;
+        height: 210px;
+        align-items: center;
+    }
+
+    #quiensoy{
+        order: 0;
+        width: 524px;
+        height: 130PX;
+        row-gap: 16px;
+        
+    }
+    
+    #quiensoy p{
+        font-size: 16px;
+    }
+    #redes{
+        font-size: 16px;
+        
+        gap: 8px;
+    }
+
+    #foto{
+        order: 1;
+        width: 146px;
+        height: 146px;
+    }
+
+    #sobreMi{
+        height: 286px;
+        
+        
+    }
+
+    #contenedorDos{
+        height: 222px;
+        width: 704px;
+        
+    }
+
+    #skillHobbiesFormacion{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #Skills, #Hobbies{
+        width: 704px;
+        height: 250px;
+        justify-content: space-around;
+        margin-top: 0;
+    }
+
+    #Formacion{
+        height: 291px;
+        width: 100%;
+        padding: 10px 1px 10px 1px;
+    }
+
+    #contenedorFormacion{
+       
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
 
     
-    
-}
+
+    .contenedorIgm{
+        width: 240px;
+        height: 118px;
+    }
+
+
+
+    #contenedorContacto{
+        width: 704px;
+        height: 573px;
+        
+        
+    }
+
+
+
+} */
