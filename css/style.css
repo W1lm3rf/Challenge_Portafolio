@@ -568,11 +568,16 @@ footer{
 
 
 /* Mobile */
-/* 
+
 @media (min-width:320px) {
    
+   /*  header{
+        width: 100%;
+    } */
 
-    #CabeceraContainer{
+    
+
+     #CabeceraContainer{
         height: 56px;
     }
 
@@ -583,32 +588,38 @@ footer{
 
    
 
-   #foto{
-    order: 0;
-    width: 98px;
-    height: 98px;
-    }
+   
     
 
     #Cabecera a:not(:last-child) {
         display: none;
     }
 
+    
+    #saludo{
+        padding-top: 20px;
+    }
+    
+
     #contenedorUno{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         
         gap: 16px;
-        height: 294px;
+        height: auto;
         padding-left: 10px;
     }
 
+    
+
     #quiensoy{
         order: 1;
-        width: auto;
-        height: 148PX;
+        max-width: 350px;
+        
         row-gap: 16px;
+        
+
         
     }
 
@@ -633,6 +644,14 @@ footer{
         width: auto;
         
     }
+
+    #foto{
+        order: 0;
+        width: 98px;
+        height: 98px;
+    }
+
+/*
 
     #contenedorDos{
         height: 318px;
@@ -818,8 +837,8 @@ footer{
         height: 40px;
         width: 133px;    
         font-size: 14px;
-    }
-} */
+    } */
+} 
 
 
 
