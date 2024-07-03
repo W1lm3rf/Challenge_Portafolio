@@ -571,9 +571,7 @@ footer{
 
 @media (min-width:320px) {
    
-   /*  header{
-        width: 100%;
-    } */
+   
 
     
 
@@ -880,7 +878,7 @@ footer{
 
 
 /* Tablet */
-/* 
+ 
 @media (min-width:768px){
 
     #Cabecera a:last-child{
@@ -888,17 +886,18 @@ footer{
         font-weight: bold;
     }
 
+
     #contenedorUno{
         flex-direction: row;
-        height: 210px;
-        align-items: center;
+        height: 300px;
+        
+        
     }
 
     #quiensoy{
         order: 0;
-        width: 524px;
-        height: 130PX;
         row-gap: 16px;
+        overflow: hidden;
         
     }
     
@@ -913,9 +912,13 @@ footer{
 
     #foto{
         order: 1;
-        width: 146px;
-        height: 146px;
+        width: 246px;
+        height: 246px;
     }
+
+
+
+    
 
     #sobreMi{
         height: 286px;
@@ -928,6 +931,15 @@ footer{
         width: 704px;
         
     }
+
+    #logoColombia{
+        order: 2;
+        right: 60px;
+        height: 150px;
+        
+    }
+
+
 
     #skillHobbiesFormacion{
         height: auto;
@@ -966,6 +978,19 @@ footer{
 
 
 
+
+
+
+    #Experiencia{
+        height: 410px;
+    }
+
+
+
+
+
+
+
     #contenedorContacto{
         width: 704px;
         height: 573px;
@@ -975,4 +1000,4 @@ footer{
 
 
 
-} */
+} 
