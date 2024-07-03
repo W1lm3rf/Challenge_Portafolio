@@ -616,11 +616,7 @@ footer{
     #quiensoy{
         order: 1;
         max-width: 350px;
-        
         row-gap: 16px;
-        
-
-        
     }
 
     #quiensoy h2{
@@ -637,32 +633,34 @@ footer{
         gap: 8px;
     }
 
-
-
-    #sobreMi{
-        height: 350px;
-        width: auto;
-        
-    }
-
     #foto{
         order: 0;
         width: 98px;
         height: 98px;
     }
 
-/*
+
+
+    
+      
+
+    #sobreMi h3{
+        order: 0;
+        text-align: center;
+        padding-right: 0;
+        
+    }
 
     #contenedorDos{
+        order: 1;
         height: 318px;
         width: 328px;
         justify-content: space-between;
         padding: 10px;
+        
     }
 
-    #contenedorDos h3{
-        font-size: 22px;
-    }
+    
     
     #contenedorDos p{
         font-size: 14px;
@@ -675,43 +673,67 @@ footer{
         overflow: hidden;
     }
 
+    #logoColombia{
+        order: 2;
+        right: 0;
+        bottom: 0;
+        height: 135px;
+    }
+
+    #logoColombia img{
+        height: 100%;
+    }
+
+
+
+
+
+    
 
 
     #Skills{
         order: 0;
         width: 360px;
-        height: 508px;
+        height: 400px;
+        
+        overflow: hidden;
+        justify-content: space-around;
     }
     
     #Skills h3{
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .contenedorSkillsHobbies{
         width: auto;
         height: auto;
-
+        
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
     }
+    
 
    
 
-    .listaSkillsHobbies{
-        height: 118px;
-        width: 150px;
-    }
+    
 
     #Hobbies{
         order: 1;
         width: 360px;
-        height: 508px;
+        height: 400px;
+        
+        justify-content: space-around;
     }
 
     #Hobbies h3{
-        font-size: 22px;
+        font-size: 24px;
+    }
+
+    .listaSkillsHobbies{
+        height: 118px;
+        width: 150px;
     }
 
     
@@ -720,6 +742,7 @@ footer{
         height: 661px;
         width: 100%;
         padding: 10px 1px 10px 1px;
+        
     }
     
     #Formacion h3{
@@ -763,8 +786,20 @@ footer{
     }
 
 
+
+
+    #Experiencia{
+        height: 250px;
+       
+    }
+
     #Experiencia h3{
         font-size: 22px;
+    }
+
+    #Experiencia img{
+        width: 80%;
+
     }
 
 
@@ -837,7 +872,7 @@ footer{
         height: 40px;
         width: 133px;    
         font-size: 14px;
-    } */
+    } 
 } 
 
 
